@@ -1,7 +1,7 @@
 ## Treetracker Domain
 * Planter
-* Planter Identifiers
-* Smart Contracts
+** Planter Identifiers
+** Smart Contracts
 * Session
 * Tree
 * Capture
