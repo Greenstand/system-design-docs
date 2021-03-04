@@ -25,5 +25,5 @@
 * Wallet
 
 
-![](./diagram.svg)
+![](https://github.com/Greenstand/system-design-docs/blob/master/domain-model/diagram.svg)
 
