@@ -70,6 +70,7 @@ update the trees table as usual and then update field data service to mark the d
 7. Trigger discussion about impact manager map (the view in web-map for planter orgs) in the web-map layer and its needs to shape and update milestone 3.
 
 ![milestone_2](milestone_2.jpg)
+Note: we have changed the above architecture to do orchestration at the level of the treetracker service for capture approval, so that the admin panel frontend only makes one call: admin panel POSTs approved capture data to treetracker service, treetracker service stores this approved capture and calls to legacy database to also mark the capture approved there.
 
 Deploy order:
 1. Deploy the web-map consumer of events generated in the captures service
